@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-$h^w))2r7c@5*or%db84mo0k-@(p5!17m2mx&w7ul7et=*nm2n
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-bjornl1-django-codestar-lt27kqcwv4.us2.codeanyapp.com',
-                 'herokuapp.com']
+                 '.herokuapp.com']
 
 
 # Application definition
