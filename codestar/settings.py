@@ -27,7 +27,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-bjornl1-django-codestar-lt27kqcwv4.us2.codeanyapp.com',
@@ -93,8 +93,13 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
+<<<<<<< HEAD
     "https://*.codeanyapp.com",
     "https://*.herokuapp.com"
+=======
+    '8000-bjornl1-django-codestar-lt27kqcwv4.us2.codeanyapp.com',
+    '.herokuapp.com'
+>>>>>>> aec44b124cc3d290fee972d0662b844fc046e6c5
 ]
 
 # Password validation
